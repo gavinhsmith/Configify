@@ -1,2 +1,3 @@
 # Configify
- Configeration Manager for NodeJS
+
+Configuration Manager for NodeJS
