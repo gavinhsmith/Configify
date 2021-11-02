@@ -15,7 +15,10 @@
     "type": "git",
     "url": "git+https://github.com/gavinhsmith/Configify.git"
   },
-  "keywords": [],
+  "keywords": [
+    "config",
+    "configuration"
+  ],
   "author": "gavinhsmith (https://gavinhsmith.ga/)",
   "license": "MIT",
   "bugs": {
