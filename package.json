@@ -1,0 +1,31 @@
+{
+  "name": "configify",
+  "version": "1.0.0",
+  "description": "Configuration Manager for NodeJS",
+  "main": "./bin/index.js",
+  "types": "./bin/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build:dev": "npx tsc",
+    "build:prod": "npm run build:dev && npx tsc -p ./tsconfig.prod.json",
+    "prepublish": "npm run build:prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavinhsmith/Configify.git"
+  },
+  "keywords": [],
+  "author": "gavinhsmith (https://gavinhsmith.ga/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gavinhsmith/Configify/issues"
+  },
+  "homepage": "https://github.com/gavinhsmith/Configify#readme",
+  "devDependencies": {
+    "@types/node": "^16.11.4",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "observable-slim": "^0.1.5"
+  }
+}
