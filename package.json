@@ -1,6 +1,6 @@
 {
   "name": "@gavinhsmith/configify",
-  "version": "1.0.1",
+  "version": "1.0.1-2",
   "description": "Configuration Manager for NodeJS",
   "main": "./bin/index.js",
   "types": "./bin/index.d.ts",
