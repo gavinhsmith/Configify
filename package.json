@@ -6,6 +6,7 @@
   "types": "./bin/index.d.ts",
   "type": "module",
   "scripts": {
+    "publish-package": "npm publish --access public",
     "build:dev": "npx tsc",
     "build:prod": "npm run build:dev && npx tsc -p ./tsconfig.prod.json",
     "prepublish": "npm run build:prod"
