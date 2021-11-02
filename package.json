@@ -1,5 +1,5 @@
 {
-  "name": "configify",
+  "name": "@gavinhsmith/configify",
   "version": "1.0.0",
   "description": "Configuration Manager for NodeJS",
   "main": "./bin/index.js",
